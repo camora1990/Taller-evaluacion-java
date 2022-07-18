@@ -2,7 +2,7 @@ package org.sofka;
 
 
 import org.sofka.ejercicio17.Ejercicio17;
-import org.sofka.ejercicio18.Ejercicio18;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class Main {
 
 //        Ejercicio17.ejecicio();
 
-        Ejercicio18.ejercicio();
+
 
 
 
