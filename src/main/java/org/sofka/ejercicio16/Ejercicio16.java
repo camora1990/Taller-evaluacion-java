@@ -33,12 +33,12 @@ public class Ejercicio16 {
             altura = getDouble();
         } while (altura <= 0);
 
-        //Creamos objetos con cada constructor
+
         Persona persona1 = new Persona();
         Persona persona2 = new Persona(nombre, edad, sexo);
         Persona persona3 = new Persona(nombre, edad, sexo, peso, altura);
 
-        //Los datos que no esten completos los insertamos con los metodos set
+
         persona1.setNombre("Maritza");
         persona1.setEdad(27);
         persona1.setSexo('M');
@@ -48,7 +48,7 @@ public class Ejercicio16 {
         persona2.setPeso(90.5);
         persona2.setAltura(1.80);
 
-        //Usamos metodos para realizar la misma accion para cada objeto
+
         printMessage("Persona1");
         mensajePeso(persona1);
         mensajeEdad(persona1);

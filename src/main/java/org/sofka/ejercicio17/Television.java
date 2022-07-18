@@ -50,18 +50,17 @@ public class Television extends Electrodomestico{
      * @return precio final de la television
      */
     public Double precioFinal(){
-        //Invocamos el método precioFinal del método padre
-        Double plus=super.precioFinal();
 
-        //Añadimos el codigo necesario
+        Double total=super.precioFinal();
+
         if (resolucion>40){
-            plus+=precioBase*0.3;
+            total+=precioBase*0.3;
         }
         if (sintonizadorTDT){
-            plus+=50;
+            total+=50;
         }
 
-        return plus;
+        return total;
     }
 
 }

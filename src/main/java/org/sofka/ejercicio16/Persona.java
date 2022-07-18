@@ -102,7 +102,7 @@ public class Persona {
 
         Integer numeroDNI = random.nextInt(99999999 - 10000000);           // Genera un número de 8 digitos
 
-        Integer posicionLetra = numeroDNI - (numeroDNI / totalLetras * totalLetras);
+        Integer posicionLetra = random.nextInt(totalLetras);
 
 
         char letraDNI = generaLetraDNI(posicionLetra);                            // Calcula la letra del DNI

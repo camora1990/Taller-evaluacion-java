@@ -41,9 +41,11 @@ public class Ejercicio15 {
             input = GetInput.getInteger();
             if (input < 1 || input > 8) {
                 PrintLogger.printMessage("[****** OPCION INCORRECTA ********]");
+            } else {
+                operation(input);
             }
         } while (input != 8);
-        operation(input);
+
     }
 
     private static void operation(Integer value) {
@@ -66,8 +68,12 @@ public class Ejercicio15 {
             case 6:
                 PrintLogger.printMessage("LISTA DE PELICULAS");
                 break;
-            default:
+
+            case 7:
                 PrintLogger.printMessage("LISTA DE CATEGPRIAS");
+                break;
+            default:
+                PrintLogger.printMessage("GRACIAS POR PARTCIPAR");
                 break;
         }
 

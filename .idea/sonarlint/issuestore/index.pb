@@ -25,13 +25,7 @@ b
 2src/main/java/org/sofka/utilities/PrintLogger.java,1\d\1dbdcabc51da6675b4b5d7e1252d7e7803d3e5de
 d
 4src/main/java/org/sofka/ejercicio11/Ejercicio11.java,5\7\5726ac6439e49ac0082291c0a5c8ebe5d9f8310f
-_
-/src/main/java/org/sofka/utilities/GetInput.java,f\1\f15f1de1a49098cda057ff5e03de02f27eadf554
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 b
 2src/main/java/org/sofka/ejercicio1/Ejercicio1.java,c\0\c098f3b65392a556b93e0f33200cb23788f3f33b
-d
-4src/main/java/org/sofka/ejercicio16/Ejercicio16.java,8\5\85be3586303e3d96bccf5f822318e756390da401
-a
-1src/main/java/org/sofka/ejercicio17/Lavadora.java,2\b\2b1a6267f1904db15523ac95ecbc00c6688f2ca3
