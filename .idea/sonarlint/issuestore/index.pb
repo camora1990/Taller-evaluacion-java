@@ -21,8 +21,6 @@ d
 4src/main/java/org/sofka/ejercicio12/Ejercicio12.java,e\f\efeafcaadd9ba5bfb1db576dd6994dda5155603c
 d
 4src/main/java/org/sofka/ejercicio13/Ejercicio13.java,e\3\e3e2302a89fd3d4a67c866bdec56e938093e74f1
-d
-4src/main/java/org/sofka/ejercicio14/Ejercicio14.java,6\c\6c24e1f4c59c652ec295efade464e93337253407
 b
 2src/main/java/org/sofka/utilities/PrintLogger.java,1\d\1dbdcabc51da6675b4b5d7e1252d7e7803d3e5de
 d
@@ -33,10 +31,6 @@ _
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 b
 2src/main/java/org/sofka/ejercicio1/Ejercicio1.java,c\0\c098f3b65392a556b93e0f33200cb23788f3f33b
-d
-4src/main/java/org/sofka/ejercicio15/Ejercicio15.java,1\a\1a9b760397c2f7b296f4d25b2f408fa6b222b21b
-`
-0src/main/java/org/sofka/ejercicio16/Persona.java,7\2\72513584038441ac79970c1998be7ec781441098
 d
 4src/main/java/org/sofka/ejercicio16/Ejercicio16.java,8\5\85be3586303e3d96bccf5f822318e756390da401
 a

@@ -20,8 +20,8 @@ import org.sofka.utilities.GetInput;
 import org.sofka.utilities.PrintLogger;
 
 public class Ejercicio15 {
-    
-    private static void optios (){
+
+    private static void optios() {
 
         PrintLogger.printMessage(" ****** GESTION CINEMATOGRÁFICA ********\n" +
                 "        1-NUEVO ACTOR\n" +
@@ -34,14 +34,42 @@ public class Ejercicio15 {
                 "        8-SALIR");
     }
 
-    public static void optionMenu(){
+    public static void optionMenu() {
         Integer input;
         do {
             optios();
             input = GetInput.getInteger();
-            if (input<1||input>8) {
+            if (input < 1 || input > 8) {
                 PrintLogger.printMessage("[****** OPCION INCORRECTA ********]");
             }
-        }while (input!=8);
+        } while (input != 8);
+        operation(input);
+    }
+
+    private static void operation(Integer value) {
+        switch (value) {
+            case 1:
+                PrintLogger.printMessage("NUEVO ACTOR");
+                break;
+            case 2:
+                PrintLogger.printMessage("ACTOR");
+                break;
+            case 3:
+                PrintLogger.printMessage("ACTOR ELIMINADO");
+                break;
+            case 4:
+                PrintLogger.printMessage("ACTOR ACTUALIZADO");
+                break;
+            case 5:
+                PrintLogger.printMessage("LISTA DE ACTORES");
+                break;
+            case 6:
+                PrintLogger.printMessage("LISTA DE PELICULAS");
+                break;
+            default:
+                PrintLogger.printMessage("LISTA DE CATEGPRIAS");
+                break;
+        }
+
     }
 }
