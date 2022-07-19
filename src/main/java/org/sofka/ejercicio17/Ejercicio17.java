@@ -1,10 +1,10 @@
 package org.sofka.ejercicio17;
 
-import org.sofka.utilities.PrintLogger;
+
 
 import java.util.ArrayList;
 import java.util.List;
-
+import org.sofka.utilities.PrintLogger;
 
 public class Ejercicio17 {
     public static void ejecicio() {
@@ -15,6 +15,7 @@ public class Ejercicio17 {
 
 
         List<Electrodomestico> electrodomesticos = new ArrayList<>();
+
         electrodomesticos.add(new Electrodomestico(120D, 80D, 'C', "negro"));
         electrodomesticos.add(new Television(900D, 80D, 'E', "gris", 42, false));
         electrodomesticos.add(new Electrodomestico());
@@ -41,7 +42,6 @@ public class Ejercicio17 {
                 "\nTotal Lavadoras: " + totalLavadoras[0] +
                 "\nTotal Electrodomesticos: "
                 + totalElectrodomesticos[0]);
-
 
     }
 

@@ -12,7 +12,7 @@ public class Persona {
     /**
      * El peso de la persona esta por encima del peso ideal
      */
-    public static final Integer SOBREPESO = 1;
+    public static final Integer SOBRE_PESO = 1;
 
     /**
      * Sexo por defecto
@@ -22,7 +22,7 @@ public class Persona {
     /**
      * El peso de la persona esta por debajo del peso ideal
      */
-    public static final Integer INFRAPESO = -1;
+    public static final Integer DEBAJO_PESO = -1;
 
     /**
      * Nombre persona
@@ -204,9 +204,9 @@ public class Persona {
             return PESO_IDEAL;
         }
         if (pesoActual < 20) {
-            return INFRAPESO;
+            return DEBAJO_PESO;
         }
-        return SOBREPESO;
+        return SOBRE_PESO;
 
     }
 

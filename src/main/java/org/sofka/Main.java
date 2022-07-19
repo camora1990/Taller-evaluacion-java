@@ -1,8 +1,7 @@
 package org.sofka;
 
 
-import org.sofka.ejercicio15.Ejercicio15;
-import org.sofka.ejercicio16.Ejercicio16;
+
 import org.sofka.ejercicio17.Ejercicio17;
 
 
@@ -25,7 +24,7 @@ public class Main {
 //        Ejercicio14.ejercicio();
 //        Ejercicio15.optionMenu();
 //        Ejercicio16.Menu();
-        Ejercicio17.ejecicio();
+       Ejercicio17.ejecicio();
 
 
 

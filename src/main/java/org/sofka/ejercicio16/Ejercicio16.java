@@ -3,7 +3,6 @@ package org.sofka.ejercicio16;
 import java.util.Objects;
 
 import static org.sofka.utilities.GetInput.*;
-import static org.sofka.utilities.GetInput.getDouble;
 import static org.sofka.utilities.PrintLogger.printMessage;
 
 public class Ejercicio16 {
