@@ -27,3 +27,9 @@ b
 2src/main/java/org/sofka/ejercicio1/Ejercicio1.java,c\0\c098f3b65392a556b93e0f33200cb23788f3f33b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+b
+2src/main/java/org/sofka/utilities/PrintLogger.java,1\d\1dbdcabc51da6675b4b5d7e1252d7e7803d3e5de
+d
+4src/main/java/org/sofka/ejercicio15/Ejercicio15.java,1\a\1a9b760397c2f7b296f4d25b2f408fa6b222b21b
+d
+4src/main/java/org/sofka/ejercicio14/Ejercicio14.java,6\c\6c24e1f4c59c652ec295efade464e93337253407
